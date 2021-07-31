@@ -1,0 +1,12 @@
+{
+    getCityByName(name: "Berlin"){
+        id
+        name
+        weather {
+            summary {
+                title
+                description
+            }
+        }
+    }
+}

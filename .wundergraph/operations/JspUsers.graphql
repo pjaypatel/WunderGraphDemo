@@ -1,0 +1,12 @@
+query JspUsers {
+  jsp_users {
+    id
+    name
+    email
+    posts {
+      id
+      title
+      body
+    }
+  }
+}
